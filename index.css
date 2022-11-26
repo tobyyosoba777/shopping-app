@@ -1,0 +1,91 @@
+* {
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+nav {
+    background: #00805a;
+    height: 3rem;
+    line-height: 3rem;
+    color: white;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.container {
+    padding: 1rem;
+}
+
+#itemForm {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#itemForm input {
+    height: 2rem;
+    text-align: center;
+    border: 1px solid #bfbfbf;
+}
+
+#quantityInput, #priceInput {
+    width: 3rem;
+}
+
+#addItemButton {
+    border: unset;
+    background: #00805a;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+#itemsDiv {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: #eaeaea;
+    margin-bottom: 0.5rem;
+}
+
+.checkbox {
+    height: 100%;
+    width: 2.5rem;
+}
+
+itemInfo {
+    text-align: center;
+}
+
+.deleteButton {
+    margin: 0 0 0 auto;
+    border: unset;
+    background: #b10000;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 2.5rem;
+    height: 100%;
+}
+
+.deleteButton:active {
+    margin-top: 3px;
+}
+
+.purchased {
+    background: #00805a;
+    color: #fff;
+}
+
+.purchased p{
+    text-decoration: line-through;
+}
+
+
+
+
