@@ -8,10 +8,11 @@
         <link rel="icon" href="./assets/icon-192.png">
         <link rel="stylesheet" href="./index.css">
         <script src="./dexie.min.js"></script>
+        <link rel="manifest" href="./manifest.json">
         <script>
             if ('serviceWorker' in navigator) {
                 window.addEventListener('load', () =>{
-                    navigator.serviceWorker.register('./sw.js'); 
+                    navigator.serviceWorker.register('./sw.js');
                 });
             }
         </script>
